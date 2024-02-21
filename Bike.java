@@ -1,13 +1,14 @@
+package runtimepolymor;
 
-public class Bike extends Vehicle{
+public class Bike extends Vehicle {
 
+	void run() {
+		System.out.println("by petrol ");
+	}
 	public static void main(String[] args) {
 		
 		Bike b=new Bike();
-		b.start();
-		
+		b.run();
 	}
-	public void start() {
-		System.out.println("using key");
-	}
+	
 }

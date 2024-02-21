@@ -1,6 +1,9 @@
+package runtimepolymor;
 
-public abstract  class Vehicle {
+public class Vehicle {
 
-	 public abstract void start();
-	
+	void run() {
+		
+		System.out.println("by diesel");
+	}
 }
